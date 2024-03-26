@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [AutomationSuite]">
+  <test thread-count="5" parallel="tests" name="RegressionTestOnEdge(failed)">
+    <parameter name="grid" value="No"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="gridURL" value="https://oauth-fathimuzzahara24-1e270:e3cf8a61-c56b-43b1-a66a-dc5c17e95580@ondemand.eu-central-1.saucelabs.com:443/wd/hub"/>
+    <classes>
+      <class name="script.DemoTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initReport"/>
+          <include name="publishReport"/>
+          <include name="preCondition"/>
+          <include name="testValidLogin"/>
+        </methods>
+      </class> <!-- script.DemoTest -->
+    </classes>
+  </test> <!-- RegressionTestOnEdge(failed) -->
+  <test thread-count="5" parallel="tests" name="RegressionTestOnChrome(failed)">
+    <parameter name="grid" value="yes"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="gridURL" value="https://oauth-fathimuzzahara24-1e270:e3cf8a61-c56b-43b1-a66a-dc5c17e95580@ondemand.eu-central-1.saucelabs.com:443/wd/hub"/>
+    <classes>
+      <class name="script.DemoTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initReport"/>
+          <include name="publishReport"/>
+          <include name="preCondition"/>
+          <include name="testValidLogin"/>
+        </methods>
+      </class> <!-- script.DemoTest -->
+      <class name="script.DemoTest2">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initReport"/>
+          <include name="publishReport"/>
+          <include name="testInvalidLogin"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- script.DemoTest2 -->
+    </classes>
+  </test> <!-- RegressionTestOnChrome(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->
