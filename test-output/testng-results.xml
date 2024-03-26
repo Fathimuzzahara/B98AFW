@@ -1,386 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="1" failed="2" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Google]]>
-    </line>
-    <line>
-      <![CDATA[Google]]>
-    </line>
-    <line>
-      <![CDATA[Google]]>
+      <![CDATA[HomePage is Displayed]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-03-26T08:02:45 IST" name="AutomationSuite" finished-at="2024-03-26T08:02:58 IST" duration-ms="13373">
+  <suite started-at="2024-03-26T13:10:02 IST" name="Default suite" finished-at="2024-03-26T13:10:08 IST" duration-ms="6248">
     <groups>
     </groups>
-    <test started-at="2024-03-26T08:02:45 IST" name="RegressionTestOnEdge" finished-at="2024-03-26T08:02:56 IST" duration-ms="10850">
-      <class name="script.DemoTest2">
-        <test-method is-config="true" signature="preCondition(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.DemoTest2@79079097]" started-at="2024-03-26T08:02:51 IST" name="preCondition" finished-at="2024-03-26T08:02:54 IST" duration-ms="3029" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void script.DemoTest2.testInvalidLogin()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[https://oauth-fathimuzzahara24-1e270:e3cf8a61-c56b-43b1-a66a-dc5c17e95580@ondemand.eu-central-1.saucelabs.com:443/wd/hub]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method signature="testInvalidLogin()[pri:0, instance:script.DemoTest2@79079097]" started-at="2024-03-26T08:02:54 IST" name="testInvalidLogin" finished-at="2024-03-26T08:02:54 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Google]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.DemoTest2@79079097]" started-at="2024-03-26T08:02:54 IST" name="postCondition" finished-at="2024-03-26T08:02:56 IST" duration-ms="2172" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=DemoTest2.testInvalidLogin()[pri:0, instance:script.DemoTest2@79079097] output=Google]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- script.DemoTest2 -->
-      <class name="script.DemoTest">
-        <test-method is-config="true" signature="initReport()[pri:0, instance:script.DemoTest@3bf7ca37]" started-at="2024-03-26T08:02:45 IST" name="initReport" finished-at="2024-03-26T08:02:45 IST" duration-ms="218" status="PASS">
+    <test started-at="2024-03-26T13:10:02 IST" name="Default test" finished-at="2024-03-26T13:10:08 IST" duration-ms="6248">
+      <class name="script.ValidLogin">
+        <test-method is-config="true" signature="initReport()[pri:0, instance:script.ValidLogin@6b2ea799]" started-at="2024-03-26T13:10:02 IST" name="initReport" finished-at="2024-03-26T13:10:02 IST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReport -->
-        <test-method is-config="true" signature="preCondition(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.DemoTest@3bf7ca37]" started-at="2024-03-26T08:02:45 IST" name="preCondition" finished-at="2024-03-26T08:02:48 IST" duration-ms="2806" status="PASS">
+        <test-method is-config="true" signature="preCondition(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.ValidLogin@6b2ea799]" started-at="2024-03-26T13:10:02 IST" name="preCondition" finished-at="2024-03-26T13:10:04 IST" duration-ms="2346" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void script.DemoTest.testValidLogin()]]>
+                <![CDATA[public void script.ValidLogin.testValidLogin()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[CHROME]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[No]]>
+                <![CDATA[NO]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[https://oauth-fathimuzzahara24-1e270:e3cf8a61-c56b-43b1-a66a-dc5c17e95580@ondemand.eu-central-1.saucelabs.com:443/wd/hub]]>
+                <![CDATA[http://localhost:4444]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testValidLogin()[pri:0, instance:script.DemoTest@3bf7ca37]" started-at="2024-03-26T08:02:48 IST" name="testValidLogin" finished-at="2024-03-26T08:02:48 IST" duration-ms="437" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [xyz] but found [abc]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [xyz] but found [abc]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at script.DemoTest.testValidLogin(DemoTest.java:22)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@6b2ea799]" started-at="2024-03-26T13:10:04 IST" name="testValidLogin" finished-at="2024-03-26T13:10:06 IST" duration-ms="1606" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Google]]>
+              <![CDATA[HomePage is Displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.DemoTest@3bf7ca37]" started-at="2024-03-26T08:02:48 IST" name="postCondition" finished-at="2024-03-26T08:02:51 IST" duration-ms="2353" status="PASS">
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@6b2ea799]" started-at="2024-03-26T13:10:06 IST" name="postCondition" finished-at="2024-03-26T13:10:08 IST" duration-ms="2270" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLogin status=FAILURE method=DemoTest.testValidLogin()[pri:0, instance:script.DemoTest@3bf7ca37] output=Google]]]>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:script.ValidLogin@6b2ea799] output=HomePage is Displayed]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="publishReport()[pri:0, instance:script.DemoTest@3bf7ca37]" started-at="2024-03-26T08:02:59 IST" name="publishReport" finished-at="2024-03-26T08:02:59 IST" duration-ms="265" status="PASS">
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:script.ValidLogin@6b2ea799]" started-at="2024-03-26T13:10:08 IST" name="publishReport" finished-at="2024-03-26T13:10:08 IST" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- publishReport -->
-      </class> <!-- script.DemoTest -->
-    </test> <!-- RegressionTestOnEdge -->
-    <test started-at="2024-03-26T08:02:45 IST" name="RegressionTestOnChrome" finished-at="2024-03-26T08:02:58 IST" duration-ms="13373">
-      <class name="script.DemoTest2">
-        <test-method is-config="true" signature="preCondition(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.DemoTest2@702657cc]" started-at="2024-03-26T08:02:57 IST" name="preCondition" finished-at="2024-03-26T08:02:58 IST" duration-ms="1440" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void script.DemoTest2.testInvalidLogin()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[yes]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[https://oauth-fathimuzzahara24-1e270:e3cf8a61-c56b-43b1-a66a-dc5c17e95580@ondemand.eu-central-1.saucelabs.com:443/wd/hub]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 400. Message: Sauce could not start your job. For more information on what happened, please visit https://app.eu-central-1.saucelabs.com/tests/438e8c9f6fed46ab83d5fc0911de1ed7 
-Host info: host: 'ATEEQZAINAB', ip: '192.168.1.3'
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: Sauce could not start your job. For more information on what happened, please visit https://app.eu-central-1.saucelabs.com/tests/438e8c9f6fed46ab83d5fc0911de1ed7 
-Host info: host: 'ATEEQZAINAB', ip: '192.168.1.3'
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
-at generic.BaseTest.preCondition(BaseTest.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method signature="testInvalidLogin()[pri:0, instance:script.DemoTest2@702657cc]" started-at="2024-03-26T08:02:58 IST" name="testInvalidLogin" finished-at="2024-03-26T08:02:58 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 400. Message: Sauce could not start your job. For more information on what happened, please visit https://app.eu-central-1.saucelabs.com/tests/438e8c9f6fed46ab83d5fc0911de1ed7 
-Host info: host: 'ATEEQZAINAB', ip: '192.168.1.3'
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: Sauce could not start your job. For more information on what happened, please visit https://app.eu-central-1.saucelabs.com/tests/438e8c9f6fed46ab83d5fc0911de1ed7 
-Host info: host: 'ATEEQZAINAB', ip: '192.168.1.3'
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
-at generic.BaseTest.preCondition(BaseTest.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.DemoTest2@702657cc]" started-at="2024-03-26T08:02:58 IST" name="postCondition" finished-at="2024-03-26T08:02:58 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- script.DemoTest2 -->
-      <class name="script.DemoTest">
-        <test-method is-config="true" signature="preCondition(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.DemoTest@292b08d6]" started-at="2024-03-26T08:02:45 IST" name="preCondition" finished-at="2024-03-26T08:02:53 IST" duration-ms="8184" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void script.DemoTest.testValidLogin()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[yes]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[https://oauth-fathimuzzahara24-1e270:e3cf8a61-c56b-43b1-a66a-dc5c17e95580@ondemand.eu-central-1.saucelabs.com:443/wd/hub]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method signature="testValidLogin()[pri:0, instance:script.DemoTest@292b08d6]" started-at="2024-03-26T08:02:53 IST" name="testValidLogin" finished-at="2024-03-26T08:02:54 IST" duration-ms="315" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [xyz] but found [abc]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [xyz] but found [abc]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at script.DemoTest.testValidLogin(DemoTest.java:22)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[Google]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.DemoTest@292b08d6]" started-at="2024-03-26T08:02:54 IST" name="postCondition" finished-at="2024-03-26T08:02:57 IST" duration-ms="3398" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testValidLogin status=FAILURE method=DemoTest.testValidLogin()[pri:0, instance:script.DemoTest@292b08d6] output=Google]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- script.DemoTest -->
-    </test> <!-- RegressionTestOnChrome -->
-  </suite> <!-- AutomationSuite -->
+      </class> <!-- script.ValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
