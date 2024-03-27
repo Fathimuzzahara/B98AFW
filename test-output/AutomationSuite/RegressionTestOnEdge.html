@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>RegressionTestOnEdge</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 26 08:02:45 IST 2024</td>
+<td>Started on:</td><td>Wed Mar 27 11:50:52 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>10 seconds (10850 ms)</td>
+<tr><td>Total time:</td><td>11 seconds (11821 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,63 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='script.DemoTest.testValidLogin()'><b>testValidLogin</b><br>Test class: script.DemoTest<br/>
-<a href="#Output-551842421" onClick='toggleBox("Output-551842421", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-551842421" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-551842421">
-Google<br/>
-</div>
-</td>
-<td><div><pre>java.lang.AssertionError: expected [xyz] but found [abc]
-	at script.DemoTest.testValidLogin(DemoTest.java:22)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace551842421", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace551842421'><pre>java.lang.AssertionError: expected [xyz] but found [abc]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at script.DemoTest.testValidLogin(DemoTest.java:22)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>0</td>
-<td>script.DemoTest@3bf7ca37</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -133,17 +76,29 @@ Google<br/>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='script.DemoTest2.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: script.DemoTest2<br/>
-<a href="#Output-722279898" onClick='toggleBox("Output-722279898", this, "Show output", "Hide output");'>Show output</a>
+<td title='script.InvalidLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: script.InvalidLogin<br/>
+<a href="#Output-1109966680" onClick='toggleBox("Output-1109966680", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-722279898" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-722279898">
-Google<br/>
+<a href="#Output-1109966680" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1109966680">
+ErrMsg is Displayed:Invalid username and/or password.<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>script.DemoTest2@79079097</td></tr>
+<td>script.InvalidLogin@3bf7ca37</td></tr>
+<tr>
+<td title='script.ValidLogin.testValidLogin()'><b>testValidLogin</b><br>Test class: script.ValidLogin<br/>
+<a href="#Output-1501688998" onClick='toggleBox("Output-1501688998", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1501688998" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1501688998">
+HomePage is Displayed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>script.ValidLogin@79079097</td></tr>
 </table><p>
 </body>
 </html>
